@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: demowebchart
-  namespace: devplus
+  namespace: flux-system
 spec:
   gitImplementation: libgit2
   interval: 1m0s
