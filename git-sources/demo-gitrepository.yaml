@@ -7,7 +7,7 @@ spec:
   gitImplementation: libgit2
   interval: 1m0s
   ref:
-    branch: dev
+    branch: main
   secretRef:
     name: flux-system
   timeout: 20s
